@@ -2,7 +2,8 @@ name: catalog
 on:
   workflow_dispatch:
   push:
-    master
+    branches:
+    - master
 env:
   IMAGE_NAME: catalogAPI
 jobs:
